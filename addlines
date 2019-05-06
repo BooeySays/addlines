@@ -1,0 +1,27 @@
+#!/bin/bash
+
+if [ $# == 1 ]; then
+	FILENAME=$1
+	echo -e """BOLD:
+━┃┏┓┗┛┣┫┳┻╋
+DOUBLE"
+═║╔╗╚╝╠╣╦╩╬
+NORMAL:
+─│┌┐└┘├┤┬┴┼╴╵╶╷""" >> "$FILENAME"
+elif [ $# == 2 ]; then
+	if [[ $1 == -* ]]; then
+	if [[ $1 != -* ]]; then
+		
+
+if [ $# > 1 ]; then
+	FIRST_ARG=$1
+	case $FIRST_ARG in
+		'-t'|'--type')
+			SEC_ARG=$2
+			case $SEC_ARG in
+				'normal')
+					
+	
+
+
+
